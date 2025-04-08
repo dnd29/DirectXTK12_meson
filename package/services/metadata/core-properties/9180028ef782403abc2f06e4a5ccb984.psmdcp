@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>Microsoft</dc:creator>
+  <dc:description>This version is for Windows desktop applications using Visual Studio 2022 on Windows 10 / Windows 11.
+
+Features:
+Audio - low-level audio API using XAudio2
+BufferHelpers - C++ helpers for creating D3D resources from CPU data
+CommonStates - common D3D state combinations
+DDSTextureLoader - light-weight DDS file texture loader
+DescriptorHeap - helper for managing DX12 descriptor heaps
+DirectXHelpers - misc C++ helpers for D3D programming
+Effects - set of built-in shaders for common rendering tasks
+EffectPipelineStateDescription - helper for creating PSOs
+GamePad - gamepad controller helper using Windows.Gaming.Input
+GeometricPrimitive - draws basic shapes such as cubes and spheres
+GraphicsMemory - helper for managing graphics memory allocation
+Keyboard - keyboard state tracking helper
+Model - draws meshes loaded from .CMO, .SDKMESH, or .VBO files
+Mouse - mouse helper
+PostProcess - set of built-in shaders for common post-processing operations
+PrimitiveBatch - simple and efficient way to draw user primitives
+RenderTargetState - helper for communicating render target requirements when creating PSOs
+ResourceUploadBatch - helper for managing texture resource upload to the GPU
+ScreenGrab - light-weight screen shot saver
+SimpleMath - simplified C++ wrapper for DirectXMath
+SpriteBatch - simple &amp; efficient 2D sprite rendering
+SpriteFont - bitmap based text rendering
+VertexTypes - structures for commonly used vertex data formats
+WICTextureLoader - WIC-based image file texture loader</dc:description>
+  <dc:identifier>directxtk12_desktop_win10</dc:identifier>
+  <version>2025.3.21.3</version>
+  <keywords>DirectX DirectXTK DirectXTK12 native nativepackage ARM64</keywords>
+  <lastModifiedBy>NuGet, Version=6.13.2.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Microsoft Windows NT 10.0.20348.0;.NET Framework 4.7.2</lastModifiedBy>
+</coreProperties>

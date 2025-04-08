@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.8.6">
+    <id>directxtk12_desktop_win10</id>
+    <version>2025.3.21.3</version>
+    <title>DirectX Tool Kit for DirectX 12 (VS 2022 Win32 for Windows 10/11)</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,directxtk</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>images\icon.jpg</icon>
+    <readme>docs\README.md</readme>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkID=615561</projectUrl>
+    <description>This version is for Windows desktop applications using Visual Studio 2022 on Windows 10 / Windows 11.
+
+Features:
+Audio - low-level audio API using XAudio2
+BufferHelpers - C++ helpers for creating D3D resources from CPU data
+CommonStates - common D3D state combinations
+DDSTextureLoader - light-weight DDS file texture loader
+DescriptorHeap - helper for managing DX12 descriptor heaps
+DirectXHelpers - misc C++ helpers for D3D programming
+Effects - set of built-in shaders for common rendering tasks
+EffectPipelineStateDescription - helper for creating PSOs
+GamePad - gamepad controller helper using Windows.Gaming.Input
+GeometricPrimitive - draws basic shapes such as cubes and spheres
+GraphicsMemory - helper for managing graphics memory allocation
+Keyboard - keyboard state tracking helper
+Model - draws meshes loaded from .CMO, .SDKMESH, or .VBO files
+Mouse - mouse helper
+PostProcess - set of built-in shaders for common post-processing operations
+PrimitiveBatch - simple and efficient way to draw user primitives
+RenderTargetState - helper for communicating render target requirements when creating PSOs
+ResourceUploadBatch - helper for managing texture resource upload to the GPU
+ScreenGrab - light-weight screen shot saver
+SimpleMath - simplified C++ wrapper for DirectXMath
+SpriteBatch - simple &amp; efficient 2D sprite rendering
+SpriteFont - bitmap based text rendering
+VertexTypes - structures for commonly used vertex data formats
+WICTextureLoader - WIC-based image file texture loader</description>
+    <summary>The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing Direct3D 12 code in C++.</summary>
+    <releaseNotes>Matches the March 20, 2025 release on GitHub.
+
+DirectX Tool Kit for Audio in this package uses XAudio 2.9 which requires Windows 10 or later.</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>DirectX DirectXTK DirectXTK12 native nativepackage ARM64</tags>
+    <repository type="git" url="https://github.com/microsoft/DirectXTK12.git" />
+  </metadata>
+</package>
